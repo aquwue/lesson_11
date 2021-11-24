@@ -6,7 +6,7 @@
 
 /* Потом селекторы по тегам */
 
-html {
+html { font-family: Arial
 
 }
 
@@ -20,26 +20,43 @@ p {
 }
 
 a {
+text-align: left;
 
 }
 
 /* Колонки */
 
 .row {
+display: flex;
 
 }
 .col {
+flex: auto;
 
 }
 
 
 /* Потом селекторы по классам */
 
-.text-input {
+.text-input {border-radius: 5px;
+width: 300px;
+height: 40px;
+padding-left: 10px;
+font-size: 15px;
+
 
 }
 
 .button {
+border-radius: 5px;
+width: 120px;
+height: 40px;
+background-color: #554AF0;
+color: white;
+font-size: 15px;
+
+
+
 
 }
 
@@ -48,6 +65,11 @@ a {
 /* Login*/
 
 .input-login {
+border-radius: 5px;
+width: 300px;
+height: 40px;
+padding-left: 10px;
+font-size: 15px;
 
 
 }
@@ -56,18 +78,49 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
+font-size: 20px;
+background-color: #E1F5EA;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 3px;
 
 }
 
 .genre-second {
+font-size: 20px;
+background-color: #CBEDFF;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 3px;
+width: 85%;
 
 }
 
 .genre-third {
+font-size: 20px;
+background-color: #FBECDD;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 3px;
+width: 70%;
 
 }
 
 .genre-fourth {
+font-size: 20px;
+background-color: #EBDCF9;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 3px;
+width: 50%;
 
 }
 
@@ -78,23 +131,60 @@ a {
 /* Страничка популярного */
 
 .cover {
+width: 200px;
+height: 300px;
+margin-right: 15px;
+margin-bottom: 15px;
 
 }
 
 /* Страничка подписки  */
 
 .box-green {
+font-size: 20px;
+background-color: #E1F5EA;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 3px;
+width: 45%;
 
 }
 
 .box-purple {
+ont-size: 20px;
+background-color: #EBDCF9;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 3px;
+width: 45%;
 
 }
 
 .text-large {
+border-radius: 5px;
+width: 200px;
+height: 40px;
+background-color: #554AF0;
+color: white;
+font-size: 15px;
 
 }
 
 .button-link {
+border-radius: 5px;
+background-color: #554AF0;
+color: white;
+font-size: 15px;
+padding-top: 10px;
+padding-right: 25px;
+padding-bottom: 10px;
+padding-left: 25px;
+text-decoration: none;
+margin-right: 5px;
+
 
 }
